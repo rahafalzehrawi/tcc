@@ -23,7 +23,25 @@
         <br />
         <br />
         <asp:Button ID="btnview" runat="server" OnClick="btnview_Click" Text="view" />
+        <br />
+        <br />
+        <br />
+        <asp:Button ID="btnquerystring" runat="server" Text="go to page4(query string)" OnClick="btnquerystring_Click" />
     
+        <br />
+        <br />
+        <br />
+        <asp:Button ID="btnsession" runat="server" OnClick="btnsession_Click" Text="Set session" />
+        <br />
+        <br />
+        <asp:Button ID="BtnCookie" runat="server" OnClick="BtnCookie_Click" Text="set Cookie" />
+    <input type="hidden" value="welcom to ASP.net" />
+        <br />
+        <br />
+        <asp:Button ID="btnApplication" runat="server" OnClick="btnApplication_Click" Text="Application" />
+        <br />
+        <br />
+        <asp:Label ID="Label3" runat="server"></asp:Label>
     </div>
     </form>
 </body>

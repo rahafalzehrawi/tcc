@@ -110,6 +110,9 @@
     <Content Include="page1.aspx" />
     <Content Include="page2.aspx" />
     <Content Include="page3.aspx" />
+    <Content Include="page4.aspx" />
+    <Content Include="page5.aspx" />
+    <Content Include="page6.aspx" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Web.config" />
@@ -138,6 +141,27 @@
     </Compile>
     <Compile Include="page3.aspx.designer.cs">
       <DependentUpon>page3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="page4.aspx.cs">
+      <DependentUpon>page4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page4.aspx.designer.cs">
+      <DependentUpon>page4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="page5.aspx.cs">
+      <DependentUpon>page5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page5.aspx.designer.cs">
+      <DependentUpon>page5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="page6.aspx.cs">
+      <DependentUpon>page6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="page6.aspx.designer.cs">
+      <DependentUpon>page6.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
